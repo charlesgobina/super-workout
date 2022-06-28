@@ -8,7 +8,7 @@ import Home from './pages/Home';
 import ExerciseDetail from './pages/ExcerciseDetail';
 
 const App = () => (
-  <Box width="400px">
+  <Box width="400px" sx={{ width: { xl: '1448px' } }} m="auto">
     <Navbar />
     <Routes>
       <Route path="/" element={<Home />} />
